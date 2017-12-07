@@ -43,7 +43,7 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            python -m pytest --pytest-cov
+            python -m pytest -v --cov=mediawords mediawords
             coveralls
 
       - store_artifacts:
