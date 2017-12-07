@@ -23,7 +23,7 @@ jobs:
           keys:
           - v2-dependencies-{{ checksum "ansible/roles/python-dependencies/files/requirements.txt" }}
           # fallback to using the latest cache if no exact match is found
-          - v1-dependencies-
+          - v2-dependencies-
 
       - run:
           name: install OS dependencies
