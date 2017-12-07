@@ -49,6 +49,9 @@ psycopg2==2.7.3
 # Unit tests
 pytest==3.2.2
 
+# Unit test coverage
+pytest-cov==2.5.1
+
 # Date parsing
 python-dateutil==2.6.1
 
