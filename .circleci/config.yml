@@ -34,7 +34,7 @@ jobs:
       - run:
           name: install python dependencies
           command: |
-            python3 -m virtualenv venv
+            python3 -m venv venv
             . venv/bin/activate
             pip install -r ansible/roles/python-dependencies/files/requirements.txt
             pip install coveralls 
